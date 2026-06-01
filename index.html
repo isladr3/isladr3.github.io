@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andres Alcantar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">AA</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- COMPACT HERO -->
+<header id="hero" class="hero">
+    <div class="hero-container">
+        
+        <div class="hero-text">
+            <h1>Andres Alcantar</h1>
+            <p>Computer Science • Software Engineering • Game Development</p>
+        </div>
+
+        <img src="assets/images/headshot.jpeg" alt="Andres Alcantar Headshot" class="headshot">
+    </div>
+</header>
+
+
+
+    <!-- ABOUT -->
+ <section id="about" class="section hidden">
+        <h2>Professional Self-Assessment</h2>
+        
+        <div class="assessment-content">
+            <h3>Resourceful Development</h3>
+            <p>
+                I’ve always had an interest in computer science, but I finally had the opportunity to make it a reality in 2024. My approach to development is based on understanding things deeply. I don't stay in one lane; I'm the kind of developer who is resourceful and finds solutions anywhere. I look at technical problems the way Steve Jobs looked at calligraphy—gathering inspiration from different fields to build something that actually works. Coming from a background in journalism at the University of Utah and working in real estate, I’ve learned that the most effective tools often come from being "nosy" enough to read the entire operations manual and understand the system as a whole.
+            </p>
+
+            <h3>Collaboration and Communication</h3>
+            <p>
+                Software doesn't exist in a vacuum. My experience in journalism taught me how to communicate with people who have different needs, and I apply that to technical stakeholders. In code reviews, I’m focused on accountability. I don’t believe in "throwing code over the fence" and hoping a tester finds the holes. I want my code to be production-ready before anyone else sees it. Whether I’m documenting a complex logic flow or walking a team through a new feature, I keep things direct and technically sound without using jargon just for the sake of it.
+            </p>
+
+            <h3>Engineering and Data Strategy</h3>
+            <p>
+                For my capstone project, I refactored a mobile inventory app into a professional system called <strong>Equator</strong>. I moved the project to the MVVM architecture because it creates a clean separation between the UI and the data. It makes the app easier to maintain and debug. On the data side, I implemented Merge Sort and Binary Search to handle inventory lookups. This changed the app from a simple list to an efficient tool that handles data with <em>O(log n)</em> efficiency. I care about how the code is structured because that's what makes it scalable.
+            </p>
+
+            <h3>Security and Cloud Integration</h3>
+            <p>
+                I want my code to work and be resilient. Using Firebase Authentication for the Equator app allowed me to build a security-first foundation from day one. By moving the data layer from a local SQLite setup to a Firebase Cloud Database, I ensured that data is secure, tied to specific users, and synced in real-time. Security isn't an extra feature to me; it’s a requirement for building software that people can actually trust.
+            </p>
+
+            <h3>Moving Forward</h3>
+            <p>
+                The artifacts in this portfolio are proof of my ability to transition from a functional prototype to a professional-grade application. I’m ready to bring this resourceful, deep-dive mindset to a software development team where I can keep solving complex problems and building systems that deliver real value.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section hidden">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>CS‑499 Capstone</h3>
+            <p>Full‑stack software engineering project with architecture, testing, and documentation.</p>
+<a class="btn" href="capstone.html">View Full Capstone →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>GAM‑303 3D Platformer</h3>
+            <p>Unreal Engine project featuring modular systems, HUD, and gameplay mechanics.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Additional Projects</h3>
+            <p>Backend APIs, automation tools, and AI‑assisted workflows.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+    </section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Skills & Technical Expertise</h2>
+    <div class="skills-grid">
+        <div class="skill-badge">Kotlin</div>
+        <div class="skill-badge">Java</div>
+        <div class="skill-badge">Python</div>
+        <div class="skill-badge">C++</div>
+        
+        <div class="skill-badge">MVVM Architecture</div>
+        <div class="skill-badge">Firebase & Cloud Firestore</div>
+        <div class="skill-badge">NoSQL & SQLite</div>
+        <div class="skill-badge">Algorithm Optimization O(log n)</div>
+        
+        <div class="skill-badge">Android Development</div>
+        <div class="skill-badge">Unreal Engine 5.6</div>
+        <div class="skill-badge">Blueprints</div>
+        
+        <div class="skill-badge">Git / GitHub</div>
+        <div class="skill-badge">Prompt Engineering for Software Refactoring</div>
+    </div>
+</section>
+
+    <!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>
+        Email: <a href="mailto:aa99352@outlook.com">aa99352@outlook.com</a><br>
+        GitHub: <a href="https://github.com/isladr3" target="_blank">github.com/isladr3</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/andres-alcantar/" target="_blank">linkedin.com/in/andres-alcantar</a>
+    </p>
+</section>
+
+    <a id="next-section-btn" class="floating-next">Next ↓</a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
